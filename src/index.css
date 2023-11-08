@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s,
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s,
+  }
+}
+
+/* :root { */
+/* font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+/* line-height: 1.5; */
+
+/* color-scheme: light dark; */
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */

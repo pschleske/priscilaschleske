@@ -8,6 +8,7 @@ import './index.css'
 import { Home } from './elements/Home';
 import { Bellwines } from './elements/Bellwines';
 import { Backwall } from './elements/Backwall';
+import { Yelpcamp } from './elements/Yelpcamp';
 import { Contact } from './elements/Contact';
 import { Footer } from './elements/Footer';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/bellwines' element={<Bellwines />} />
           <Route path='/backwall' element={<Backwall />} />
+          <Route path='/yelpcamp' element={<Yelpcamp />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />

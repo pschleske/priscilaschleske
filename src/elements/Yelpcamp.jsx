@@ -43,7 +43,7 @@ export const Yelpcamp = () => {
                     style={{ fontSize: iconSize, position: "absolute", left: "10%" }}
                     pl='100'
                 />
-                <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} h={400} w={800} />
+                <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} h={{ md: '400' }} w={{ md: '800' }} />
                 <BsChevronRight
                     onClick={nextImage}
                     style={{ fontSize: iconSize, position: "absolute", right: "10%" }}

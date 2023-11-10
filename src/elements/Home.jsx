@@ -80,7 +80,7 @@ export const Home = () => {
                     {/* </div> */}
                 </div>
 
-                <div className="flex md:w-max items-center md:px-28 md:pt-6">
+                <div className="flex md:w-max items-center md:px-28 md:pt-4">
                     {/*  <div className="relative md:w-10/12 z-0"> */}
                     {/* 
                         <div className="absolute top-3 left-20 w-64 h-48 bg-violet-200 rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob"></div>

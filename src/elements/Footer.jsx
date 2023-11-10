@@ -7,7 +7,8 @@ export const Footer = () => {
 
     return (
         <>
-            <Flex flex='start' direction='column' h='300' justifyContent='center' px='75'>
+            {/* <Flex flex='start' direction='column' h='300' justifyContent='center' px='75'> */}
+            <Flex flex='start' direction='column' h='300' justifyContent='center' px={{ base: '12', md: '62' }}>
                 <Flex >
                     <Box px='10'>
                         <a href='https://www.linkedin.com/in/priscila-schleske/' target="_blank" rel="noopener noreferrer">
@@ -36,7 +37,6 @@ export const Footer = () => {
                         <Text>Utah</Text>
                     </Box>
                 </Flex>
-
 
             </Flex>
 
